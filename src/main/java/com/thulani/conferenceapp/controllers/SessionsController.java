@@ -5,12 +5,12 @@ import com.thulani.conferenceapp.models.Session;
 import com.thulani.conferenceapp.repositories.SessionRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Repository
+@RestController
 @RequestMapping("/api/v1/sessions")
 public class SessionsController {
     @Autowired
