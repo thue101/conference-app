@@ -127,3 +127,5 @@ CREATE TABLE workshop_registrations
     workshop_id        integer NOT NULL REFERENCES workshops (workshop_id),
     attendee_ticket_id integer NOT NULL REFERENCES attendee_tickets (attendee_ticket_id)
 );
+
+
