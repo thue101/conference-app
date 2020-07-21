@@ -22,3 +22,5 @@ Create controllers which will handle the API endpoints which are based on REST (
 ## Running the App
 #### Swagger
 It is and a set of open- source tool that allows you to work with REST API endpoints.The goal of Swagger is to enable client and documentation systems to update at the same pace as the server. Enable Swagger by adding Swagger dependency into your pom.xml and then create Swagger java Configuration class. Run your app and connect to the Swagger UI and test your endpoints. 
+#### Testing
+Testing REST APIs using Junit and Spring Boot with in memory H2 Database
