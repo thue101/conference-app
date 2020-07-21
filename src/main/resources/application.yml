@@ -4,12 +4,12 @@ spring:
     username: sa
     password:
     driver-class-name: org.h2.Driver
-  ​
-jpa:
-  database-platform: org.hibernate.dialect.H2Dialect
-  database: H2
-  show-sql: false
-  hibernate:
-    ddl-auto: create-drop
-    naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
-    use-new-id-generator-mappings: true
+
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      database: H2
+      show-sql: false
+      hibernate:
+        ddl-auto: create-drop
+        naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        use-new-id-generator-mappings: true
