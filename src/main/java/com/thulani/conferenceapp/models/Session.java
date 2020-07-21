@@ -1,10 +1,12 @@
 package com.thulani.conferenceapp.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity(name = "sessions") // class level annotating a jpa entity
-
+@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 public class Session {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
